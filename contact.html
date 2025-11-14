@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheger Gebeta - Request/Contact</title>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Sheger Gebeta</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="contact.html">Request/Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Submit a Restaurant Review Request</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="restaurant">Restaurant Name:</label><br>
+            <input type="text" id="restaurant" name="restaurant" required><br><br>
+
+            <label for="review-type">Type of Review:</label><br>
+            <select id="review-type" name="review-type">
+                <option value="food">Food</option>
+                <option value="service">Service</option>
+                <option value="ambience">Ambience</option>
+            </select><br><br>
+
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="5" cols="40"></textarea><br><br>
+
+            <label>Priority:</label><br>
+            <input type="radio" id="normal" name="priority" value="normal" checked>
+            <label for="normal">Normal</label><br>
+            <input type="radio" id="urgent" name="priority" value="urgent">
+            <label for="urgent">Urgent</label><br><br>
+
+            <label>Preferred Days:</label><br>
+            <input type="checkbox" name="days" value="monday"> Monday
+            <input type="checkbox" name="days" value="friday"> Friday
+            <input type="checkbox" name="days" value="weekend"> Weekend<br><br>
+
+            <input type="submit" value="Submit Request">
+        </form>
+    </section>
+
+    <section>
+        <h2>Restaurant Ratings Comparison</h2>
+        <table border="1">
+            <tr>
+                <th rowspan="2">Restaurant</th>
+                <th colspan="3">Ratings</th>
+            </tr>
+            <tr>
+                <th>Food</th>
+                <th>Service</th>
+                <th>Ambience</th>
+            </tr>
+            <tr>
+                <td>XYZ Restaurant</td>
+                <td>5/5</td>
+                <td>4/5</td>
+                <td>4/5</td>
+            </tr>
+            <tr>
+                <td>ABC Cafe</td>
+                <td>4/5</td>
+                <td>5/5</td>
+                <td>3/5</td>
+            </tr>
+            <tr>
+                <td>FastBite</td>
+                <td>3/5</td>
+                <td>4/5</td>
+                <td>4/5</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>© 2025 Sheger Gebeta | Contact: shegergebeta@example.com</p>
+    </footer>
+
+</body>
+</html>
